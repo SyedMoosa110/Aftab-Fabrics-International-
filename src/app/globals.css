@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { background: #FAF8F5; }
+body { color: #18181B; -webkit-font-smoothing: antialiased; letter-spacing: 0.01em; }
+::selection { background: #C5A880; color: #18181B; }
+.weave {
+  background-color: #F3EDE4;
+  background-image:
+    repeating-linear-gradient(0deg, rgba(197,168,128,.35) 0 1px, transparent 1px 6px),
+    repeating-linear-gradient(90deg, rgba(140,122,94,.25) 0 1px, transparent 1px 6px);
+}
